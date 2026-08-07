@@ -1,0 +1,7 @@
+metric,value
+our_101_gene_count,101
+saintigny_29model_total,29
+saintigny_29model_protein_coding_symbols,14
+overlap_101_vs_29model,0
+jaccard_101_vs_29model,0.0
+note,"2,182 Cox-significant transcript list (paper Suppl Mat 9) behind NCBI PoW gate; retrievable at submission. Expected to overlap more (same cohort) and only strengthens replication conclusion."

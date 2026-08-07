@@ -1,0 +1,38 @@
+# ---- large binary / derived objects (regenerable) ----
+results/*.rds
+
+# ---- python ----
+__pycache__/
+*.pyc
+
+# ---- logs ----
+*.log
+
+# ---- env (contains local machine paths) ----
+.env
+
+# ---- local environment tooling (not part of the analysis) ----
+socks_forwarder.py
+socks_forwarder.log
+test_repos.py
+wsl_proxy_test.sh
+
+# ---- scratch / debugging scripts from the development process ----
+dbg2.R
+debug_collapse.R
+debug_match.R
+inspect.R
+
+# ---- IDE / tooling dirs ----
+.idea/
+.vscode/
+.workbuddy/
+.codegraph/
+
+# ---- internal QA documents (not for the public repo) ----
+docs/nature_reviewer_assessment_*.md
+docs/Revision_Plan.md
+docs/最终稿全面检查报告.md
+docs/研究过程与结论审计.md
+docs/deep-research-report.md
+docs/Literature_对话.md

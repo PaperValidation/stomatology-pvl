@@ -1,0 +1,3 @@
+Layer,Hallmark.sig,GO.sig,TF.lib.sig,KEGG.sig
+"Signature-level (101-gene, GSE26549)",1 term: UV Response Down (adj. P = 0.023),3 terms (steroid/androgen metabolism; neg. reg. proteolysis),0 (ChEA/ENCODE),0
+"Bulk-level (GSE227919 cancer vs control, |logFC|>1)","24 terms; top: E2F, G2M, IFN-*; mTORC1, PI3K/AKT/mTOR, EMT (adj. P < 0.05)",n.r.,n.r.,see GO/Reactome in pipeline outputs

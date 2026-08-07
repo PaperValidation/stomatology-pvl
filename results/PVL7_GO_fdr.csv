@@ -1,0 +1,4 @@
+"Term","Overlap","P.value","Adjusted.P.value","Old.P.value","Old.Adjusted.P.value"
+"steroid catabolic process (GO:0006706)","3/14",4.36957068727314e-05,0.0286912492978867,0,0
+"negative regulation of proteolysis (GO:0045861)","4/43",6.49858421243187e-05,0.0286912492978867,0,0
+"androgen metabolic process (GO:0008209)","3/21",0.000155608020237326,0.045800627289853,0,0
