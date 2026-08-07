@@ -157,7 +157,7 @@ A progression signature originally described in the GSE26549 microarray cohort i
 
 ## Data Availability Statement
 
-All input data are public and were downloaded from the Gene Expression Omnibus (https://www.ncbi.nlm.nih.gov/geo/): GSE26549, GSE227919, GSE196296 and GSE85195. The complete 101-gene signature, per-sample direction-weighted scores for the GSE227919 and GSE85195 validation cohorts, single-cell cluster-level statistics, and all analysis scripts with session information (R 4.3.3, package versions) are deposited in a public Zenodo repository at https://doi.org/10.5281/zenodo.21823584. The version-controlled analysis code is also available on GitHub at https://github.com/tiduslrg. Dataset accessions and download dates, the file inventory, and the reproduction procedure are listed in the deposit README.
+All input data are public and were downloaded from the Gene Expression Omnibus (https://www.ncbi.nlm.nih.gov/geo/): GSE26549, GSE227919, GSE196296 and GSE85195. The complete 101-gene signature, per-sample direction-weighted scores for the GSE227919 and GSE85195 validation cohorts, single-cell cluster-level statistics, and all analysis scripts with session information (R 4.3.3, package versions) are deposited in a public Zenodo repository at https://doi.org/10.5281/zenodo.21823584. The version-controlled analysis code is also available on GitHub at https://github.com/PaperValidation/stomatology-pvl; the Zenodo record above is the canonical public archive. Dataset accessions and download dates, the file inventory, and the reproduction procedure are listed in the deposit README.
 
 ## Ethics Statement
 

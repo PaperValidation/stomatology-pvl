@@ -38,6 +38,7 @@ README.md           This file
 - Each `PVL_0*.R` script reads the raw data and writes to `results/`; the pipeline order is documented in `docs/`.
 - The complete file inventory, per-sample scores, and reproduction procedure are in [`manuscript/deposit/README.md`](manuscript/deposit/README.md).
 - The deposit package (signature table, per-sample scores for both validation cohorts, single-cell cluster statistics, all scripts, session info) is archived at Zenodo: **https://doi.org/10.5281/zenodo.21823584**
+- The version-controlled analysis code lives in this GitHub repository: **https://github.com/PaperValidation/stomatology-pvl** (Zenodo is the canonical public archive of the exact released file set).
 
 ## Citation
 
