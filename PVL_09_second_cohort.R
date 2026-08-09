@@ -1,4 +1,5 @@
 #!/usr/bin/env Rscript
+source(file.path(getwd(), "_env_paths.R"))  # paths from .env (single source of truth)
 ## ============================================================
 ## PVL Phase 9: SECOND-INDEPENDENT-COHORT cross-sectional discrimination
 ## Cohort : GSE85195 (Agilent 4x44K, Gingivobuccal complex)
@@ -13,9 +14,7 @@ suppressMessages({
   library(data.table); library(dplyr); library(pROC); library(ggplot2)
 })
 
-DATASET_PATH <- "/mnt/g/CMCC Sync/Medical Data/Stomatology/PVL"
 RAW  <- file.path(DATASET_PATH, "raw")
-RES  <- "~/PVL/results"
 FIG  <- file.path(RES, "manuscript_figs")
 dir.create(FIG, showWarnings = FALSE, recursive = TRUE)
 cat("=== PVL Phase 9 start ===\n")

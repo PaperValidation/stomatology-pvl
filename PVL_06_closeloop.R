@@ -1,11 +1,9 @@
+source(file.path(getwd(), "_env_paths.R"))  # paths from .env (single source of truth)
 suppressMessages({
   library(Seurat); library(data.table); library(ggplot2); library(pheatmap)
   library(RColorBrewer)
 })
-## 输入数据目录 = .env 的 DATASET_PATH（WSL 下为 /mnt/g/...）；分析结果仍留本地 ~/PVL/results
-DATASET_PATH <- "/mnt/g/CMCC Sync/Medical Data/Stomatology/PVL"
 RAW   <- file.path(DATASET_PATH, "raw")
-RES   <- "~/PVL/results"
 MET   <- file.path(DATASET_PATH, "metadata")
 
 ## ---------- load discovery signature (GSE26549, 101 genes) ----------

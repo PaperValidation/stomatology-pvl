@@ -1,4 +1,5 @@
 #!/usr/bin/env Rscript
+source(file.path(getwd(), "_env_paths.R"))  # paths from .env (single source of truth)
 ## ============================================================
 ## Manuscript figure + table production (v2, 2026-08-04)
 ## Replicates EXACT scoring formulas from PVL_04 (safe_scale,
@@ -11,10 +12,8 @@ suppressMessages({
   library(RColorBrewer)
 })
 ## ---- paths (DATASET_PATH = .env, WSL translation) ----
-DATASET_PATH <- "/mnt/g/CMCC Sync/Medical Data/Stomatology/PVL"
 RAW  <- file.path(DATASET_PATH, "raw")
 MET  <- file.path(DATASET_PATH, "metadata")
-RES  <- "~/PVL/results"
 OUT  <- "/mnt/c/Users/tidus/PycharmProjects/Stomatology-PVL/results/manuscript_figs"
 dir.create(OUT, showWarnings = FALSE, recursive = TRUE)
 

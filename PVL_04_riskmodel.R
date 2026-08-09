@@ -1,4 +1,5 @@
 #!/usr/bin/env Rscript
+source(file.path(getwd(), "_env_paths.R"))  # paths from .env (single source of truth)
 ## ============================================================
 ## PVL Phase 4: progression-risk model (discovery + cross-platform validation)
 ## Discovery : GSE26549 (bulk microarray OPL, baseline biopsy, progressing vs non)
@@ -17,11 +18,8 @@ suppressMessages({
   library(ggplot2); library(Matrix)
 })
 
-## 输入数据目录 = .env 的 DATASET_PATH（WSL 下为 /mnt/g/...）；分析结果仍留本地 ~/PVL/results
-DATASET_PATH <- "/mnt/g/CMCC Sync/Medical Data/Stomatology/PVL"
 RAW  <- file.path(DATASET_PATH, "raw")
 MET  <- file.path(DATASET_PATH, "metadata")
-RES  <- "~/PVL/results"
 dir.create(RES, showWarnings = FALSE)
 cat("=== PVL Phase 4 start ===\n")
 

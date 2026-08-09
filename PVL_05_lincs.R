@@ -1,4 +1,5 @@
 #!/usr/bin/env Rscript
+source(file.path(getwd(), "_env_paths.R"))  # paths from .env (single source of truth)
 ## ============================================================
 ## PVL Phase 5: LINCS L1000 drug repurposing (signed Connectivity-Map)
 ## Principle: a candidate "malignancy-reversing" compound should
@@ -10,10 +11,7 @@ Sys.setenv(http_proxy  = "socks5://127.0.0.1:8428",
            https_proxy = "socks5://127.0.0.1:8428")
 suppressMessages({ library(enrichR); library(data.table); library(dplyr); library(ggplot2) })
 
-## 输入数据目录 = .env 的 DATASET_PATH（WSL 下为 /mnt/g/...）；分析结果仍留本地 ~/PVL/results
-DATASET_PATH <- "/mnt/g/CMCC Sync/Medical Data/Stomatology/PVL"
 RAW  <- file.path(DATASET_PATH, "raw")
-RES <- "~/PVL/results"
 dir.create(RES, showWarnings = FALSE)
 cat("=== PVL Phase 5 (LINCS) start ===\n")
 

@@ -39,3 +39,6 @@ docs/最终稿全面检查报告.md
 docs/研究过程与结论审计.md
 docs/deep-research-report.md
 docs/Literature_对话.md
+
+# ---- one-off migration / scaffolding scripts (not part of the pipeline) ----
+_inject_paths.py

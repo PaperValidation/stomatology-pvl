@@ -1,5 +1,5 @@
+source(file.path(getwd(), "_env_paths.R"))  # paths from .env (single source of truth)
 suppressMessages({library(data.table); library(enrichR)})
-RES <- "~/PVL/results"
 
 ## ---------- load discovery signature (101 genes) ----------
 deg  <- fread(file.path(RES, "GSE26549_progression_DEG.csv"))

@@ -1,4 +1,5 @@
 #!/usr/bin/env Rscript
+source(file.path(getwd(), "_env_paths.R"))  # paths from .env (single source of truth)
 ## ============================================================
 ## PVL Phase 2: Bulk transcriptomic DEG + pathway enrichment
 ##   Cohort A (discovery): GSE26549  - OPL microarray, progression outcome
@@ -20,9 +21,6 @@ suppressMessages({
 tryCatch(set_config(use_proxy("127.0.0.1", 8428, scheme = "socks5")),
          error = function(e) invisible(NULL))
 
-## 输入数据目录 = .env 的 DATASET_PATH（WSL 下为 /mnt/g/...）；分析结果仍留本地 ~/PVL/results
-DATASET_PATH <- "/mnt/g/CMCC Sync/Medical Data/Stomatology/PVL"
-RAW <- file.path(DATASET_PATH, "raw"); MET <- file.path(DATASET_PATH, "metadata"); RES <- "~/PVL/results"
 dir.create(RES, showWarnings = FALSE)
 cat("=== PVL Phase 2 start ===\n")
 

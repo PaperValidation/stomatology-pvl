@@ -1,4 +1,5 @@
 #!/usr/bin/env Rscript
+source(file.path(getwd(), "_env_paths.R"))  # paths from .env (single source of truth)
 ## ============================================================
 ## PVL Phase 10: quantification of single-cell signature localisation
 ## For each seurat cluster, test the direction-weighted signature score
@@ -10,9 +11,7 @@ suppressMessages({
   library(Seurat); library(data.table); library(ggplot2)
 })
 
-DATASET_PATH <- "/mnt/g/CMCC Sync/Medical Data/Stomatology/PVL"
 RAW   <- file.path(DATASET_PATH, "raw")
-RES   <- "~/PVL/results"
 
 ## ---------- load discovery signature (GSE26549, 101 genes) ----------
 deg  <- fread(file.path(RES, "GSE26549_progression_DEG.csv"))

@@ -1,4 +1,5 @@
 #!/usr/bin/env Rscript
+source(file.path(getwd(), "_env_paths.R"))  # paths from .env (single source of truth)
 ## ============================================================
 ## PVL Phase 3: single-cell RNA-seq (GSE196296, 10x)
 ## 3 samples = same PVL lesion pathological continuum
@@ -14,10 +15,7 @@ suppressMessages({
   library(ggplot2); library(cowplot)
 })
 
-## 输入数据目录 = .env 的 DATASET_PATH（WSL 下为 /mnt/g/...）；分析结果仍留本地 ~/PVL/results
-DATASET_PATH <- "/mnt/g/CMCC Sync/Medical Data/Stomatology/PVL"
 RAW  <- file.path(DATASET_PATH, "raw")
-RES  <- "~/PVL/results"
 dir.create(RES, showWarnings = FALSE)
 cat("=== PVL Phase 3 start ===\n")
 
