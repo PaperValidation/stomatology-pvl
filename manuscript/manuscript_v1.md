@@ -19,6 +19,14 @@
 
 **Keywords:** oral leukoplakia; proliferative verrucous leukoplakia; transcriptomic signature; malignant transformation; single-cell RNA-seq; LINCS; drug repurposing
 
+## Highlights
+
+- A 101-gene progression signature generalises to RNA-seq as a graded severity signal.
+- The score is platform-agnostic and discriminates leukoplakia from OSCC on microarrays.
+- Single-cell mapping pins the signature to immune-suppressed, metabolic states.
+- LINCS reversal nominates eight repositionable candidates; PI3K/mTOR inhibitors lead.
+- Internal cross-validated AUC of 1.0 is reported candidly as an optimistic estimate.
+
 ---
 
 ## 1. Introduction
