@@ -23,6 +23,9 @@ debug_collapse.R
 debug_match.R
 inspect.R
 
+# ---- internal compliance-check scripts (not for the public repo) ----
+manuscript/_verify_oo.py
+
 # ---- IDE / tooling dirs ----
 .idea/
 .vscode/
