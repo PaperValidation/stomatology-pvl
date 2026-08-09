@@ -1,4 +1,0 @@
-"Term","Adjusted.P.value","Combined.Score","Genes"
-"steroid catabolic process (GO:0006706)",0.0286912492978867,555.587000463361,"SPP1;HSD17B6;CYP19A1"
-"androgen metabolic process (GO:0008209)",0.045800627289853,296.462577881129,"SPP1;HSD17B6;CYP19A1"
-"negative regulation of proteolysis (GO:0045861)",0.0286912492978867,202.460517840626,"ECM1;CAMK2N1;LRRK2;TIMP2"
