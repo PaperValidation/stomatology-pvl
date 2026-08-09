@@ -22,7 +22,7 @@
 ## Highlights
 
 - A 101-gene progression signature generalises to RNA-seq as a graded severity signal.
-- The score is platform-agnostic and discriminates leukoplakia from OSCC on microarrays.
+- The platform-agnostic score also discriminates leukoplakia from OSCC on microarray.
 - Single-cell mapping pins the signature to immune-suppressed, metabolic states.
 - LINCS reversal nominates eight repositionable candidates; PI3K/mTOR inhibitors lead.
 - Internal cross-validated AUC of 1.0 is reported candidly as an optimistic estimate.
