@@ -1,0 +1,9 @@
+Drug,Target.class,Tier,Up.targets.down,Down.targets.up,Reversal.score,Hub.evidence
+ZSTK-474,PI3K,Priority,3,10,14.9,TFRC; SLC2A1; PTN; PDGFRA; IGFBP5
+PF-477736,CHK1,Exploratory,4,11,11.6,TFRC; SPP1; MET; PTN; IGFBP5
+AZD-7762,CHK1,Exploratory,3,14,11.5,TFRC; SPP1; PDGFRA; PTN; ECM1
+HG-6-64-01,HDAC,Exploratory,3,11,10.7,SLC2A1; PTN; IGFBP5
+GSK-1059615,PI3K/mTOR,Priority,3,8,9,TFRC; SLC2A1; SPP1; PTN
+AS-601245,JNK,Exploratory,3,5,6.5,TFRC; SPP1; MET; PDGFRA
+torin-1,mTOR,Priority,3,5,5.4,SPP1
+sorafenib,multi-kinase,Exploratory,3,7,5.2,MET; PDGFRA; PTN; ECM1

@@ -1,0 +1,3 @@
+Layer,Hallmark.sig,GO.sig,TF.lib.sig,KEGG.sig
+"Signature-level (101-gene, GSE26549)",1 term: UV Response Down (adj. P = 0.023),3 terms (steroid/androgen metabolism; neg. reg. proteolysis),0 (ChEA/ENCODE),0
+"Bulk-level (GSE227919 cancer vs control, |logFC|>1)","24 terms (up) + 3 (down); top: E2F, G2M, IFN-*; mTORC1, PI3K/AKT/mTOR, EMT",405 terms (up) + 3 (down),not run (no ChEA/ENCODE query at bulk level),59 terms (up) + 0 (down)
