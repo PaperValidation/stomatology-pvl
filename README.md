@@ -15,7 +15,7 @@ This repository contains the full analysis pipeline, results, manuscript draft, 
 
 ## Key results (honest summary)
 
-- **Signature**: 101 direction-weighted genes derived from GSE26549 progression DEGs; 86 of 101 overlap the previously published risk-model genes.
+- **Signature**: 101 direction-weighted genes derived from GSE26549 progression DEGs; 86 of the 101 are represented in the GSE227919 cohort (~91% directionally concordant), and 86 are mappable to L1000 (26 up + 60 down), which is the set submitted to the LINCS queries.
 - **GSE227919 (RNA-seq)**: severity-gradient Spearman ρ = 0.473 (*P* = 6 × 10⁻⁵); ρ = 0.356 after excluding the cancer group (*P* = 0.007) — the signal is not driven by the cancer label alone.
 - **GSE85195 (Agilent, different population)**: OPL-vs-OSCC discrimination AUC = 0.949 (95% CI 0.891–1.0), 83/101 genes mapped. **This is a cross-sectional state-discrimination result, not a prospective transformation-prediction result.**
 - **Single-cell (GSE196296)**: no lesion-level gradient (between-block η² = 0.006, below the small-effect threshold); the signature is enriched in specific cell states (clusters 5/13/22/23/15, Cliff's δ = 0.43–0.89).
