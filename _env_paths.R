@@ -2,7 +2,7 @@
 # _env_paths.R  --  single source of truth for dataset paths
 # Sourced by all PVL analysis scripts (run from the project root in WSL).
 # Reads DATASET_PATH and DATASET_PATH_TEMP from the project .env and converts
-# Windows drive paths (G:\, E:\) to WSL mount paths (/mnt/g, /mnt/e).
+# Windows drive paths (e.g. E:\, F:\) to WSL mount paths (e.g. /mnt/e, /mnt/f).
 # =============================================================================
 
 .read_env_value <- function(key) {
@@ -34,11 +34,11 @@
   p
 }
 
-# Canonical data (raw + metadata) -> G:  (DATASET_PATH)
+# Canonical data (raw + metadata) -> E:  (DATASET_PATH)
 DATASET_PATH      <- .win2wsl(.read_env_value("DATASET_PATH"))
-# Temp / intermediate results          -> E:  (DATASET_PATH_TEMP)
+# Temp / intermediate results     -> F:  (DATASET_PATH_TEMP)
 DATASET_PATH_TEMP <- .win2wsl(.read_env_value("DATASET_PATH_TEMP"))
 
 RAW <- file.path(DATASET_PATH, "raw")
 MET <- file.path(DATASET_PATH, "metadata")
-RES <- DATASET_PATH_TEMP   # analysis outputs now live on the temp volume (E:)
+RES <- DATASET_PATH_TEMP   # analysis outputs live on the temp volume (F:)
