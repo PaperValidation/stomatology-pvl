@@ -1,0 +1,16 @@
+"metric","value"
+"LASSO_internal_AUC",0.99883855981417
+"LASSO_5foldCV_AUC",1
+"SignatureScore_internal_AUC",0.91869918699187
+"SignatureScore_external_AUC",0.547058823529412
+"SignatureScore_external_CI_low",0.317670879287385
+"SignatureScore_external_CI_high",0.776446767771439
+"SignatureScore_external_p_MWU",0.711452493603523
+"DirectLASSO_transfer_external_AUC",0.435294117647059
+"Ext_calib_slope",0.0957839489315225
+"Ext_calib_intercept",-0.561933549972941
+"Pseudobulk_mean_abs_spearman",0.866025403784439
+"Pseudobulk_dir_agreement_pct",67.816091954023
+"Ext_gradient_spearman_rho",0.473275019326779
+"Ext_gradient_p",5.98917243259e-05
+"Ext_gradient_Cancer_AUC",0.814814814814815

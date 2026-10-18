@@ -1,0 +1,15 @@
+"metric","value"
+"n_OPL",15
+"n_OSCC",34
+"n_Normal",1
+"sig_genes_total",101
+"sig_genes_mapped",83
+"mapping_rate_pct",82.2
+"OPL_vs_OSCC_AUC",0.949019607843137
+"AUC_CI_low",0.890726196132003
+"AUC_CI_high",1
+"severity_rho_OPL_OSCC",0.717026813292496
+"severity_p",6.81240024363047e-09
+"mean_score_OPL",-40.8470742968777
+"mean_score_OSCC",19.5042922053216
+"mean_score_Normal",-50.4398205277701

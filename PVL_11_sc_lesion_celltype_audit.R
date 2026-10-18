@@ -2,10 +2,11 @@
 # PVL_11: celltype x lesion cross-tabs + stats for the manuscript claim audit
 # READ-ONLY on the Seurat rds. Adds new CSVs only.
 suppressPackageStartupMessages(library(Seurat))
+source(file.path(getwd(), "_env_paths.R"))
 
-rds_path <- "/mnt/f/Data Temp/PVL/PVL_sc_combined.rds"
-out_fig  <- "/mnt/c/Users/tidus/PycharmProjects/Stomatology-PVL/results/manuscript_figs"
-out_data <- "/mnt/f/Data Temp/PVL"
+rds_path <- file.path(RES, "PVL_sc_combined.rds")
+out_fig  <- file.path(getwd(), "results", "manuscript_figs")
+out_data <- RES
 dir.create(out_fig,  recursive = TRUE, showWarnings = FALSE)
 dir.create(out_data, recursive = TRUE, showWarnings = FALSE)
 
@@ -173,7 +174,7 @@ for (nm in names(proxy)) {
 }
 
 # cluster-level marker check for the three lineages
-mk_file <- "/mnt/f/Data Temp/PVL/sc_cluster_markers.csv"
+mk_file <- file.path(RES, "sc_cluster_markers.csv")
 cat("\n=== cluster-level marker evidence (from sc_cluster_markers.csv) ===\n")
 if (file.exists(mk_file)) {
   mk <- read.csv(mk_file, stringsAsFactors = FALSE)

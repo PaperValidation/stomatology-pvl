@@ -2,10 +2,11 @@
 # PVL_12: marker-defined check of the Treg / plasma / mast claim (claim §3.3)
 # READ-ONLY. Only reads a small gene panel from the counts layer.
 suppressPackageStartupMessages(library(Seurat))
+source(file.path(getwd(), "_env_paths.R"))
 
-rds_path <- "/mnt/f/Data Temp/PVL/PVL_sc_combined.rds"
-out_fig  <- "/mnt/c/Users/tidus/PycharmProjects/Stomatology-PVL/results/manuscript_figs"
-out_data <- "/mnt/f/Data Temp/PVL"
+rds_path <- file.path(RES, "PVL_sc_combined.rds")
+out_fig  <- file.path(getwd(), "results", "manuscript_figs")
+out_data <- RES
 
 cat("=== load ===\n"); t0 <- Sys.time()
 obj <- readRDS(rds_path)

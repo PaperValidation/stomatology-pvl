@@ -1,0 +1,8 @@
+"metric","value"
+"DEG_max",101
+"DEG_mean",102
+"overlap",100
+"Jaccard",0.971
+"logFC_spearman",0.997
+"ext_rho_max",0.473
+"ext_rho_mean",0.47

@@ -8,7 +8,9 @@
 .read_env_value <- function(key) {
   envp <- file.path(getwd(), ".env")
   if (!file.exists(envp)) {
-    envp <- "/mnt/c/Users/tidus/PycharmProjects/Stomatology-PVL/.env"  # fallback
+    stop("No .env found in the working directory (", getwd(), ").\n",
+         "Copy scripts/.env.template to .env in the project root and run the ",
+         "analysis scripts from that directory.", call. = FALSE)
   }
   lines <- readLines(envp, warn = FALSE)
   pat <- paste0("^", key, "\\s*=")
