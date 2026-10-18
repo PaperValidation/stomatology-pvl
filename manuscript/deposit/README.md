@@ -1,5 +1,21 @@
 # Data and Code Deposit — "A validated transcriptomic signature of malignant progression in oral leukoplakia and PVL"
 
+> ## ⚠️ SUPERSEDED — use `manuscript/deposit_v2/` instead
+>
+> This directory is the **version 1** snapshot, released 2026-08-06 as Zenodo
+> record 21823584. It is kept only for provenance and **must not be used for
+> reproduction**: every `PVL_0*.R` script here hard-codes `/mnt/g/...` paths and
+> never reads the configuration file, `_env_paths.R` is absent, `.env.template`
+> defines no variables, `signature_101genes.csv` carries a wrong `signif` column
+> (13 of 101 rows marked `yes` instead of 101), and the source tables behind
+> Table 1 / the AUCs / the cluster statistics are missing.
+>
+> **Use `manuscript/deposit_v2/` (Zenodo version 2), DOI 10.5281/zenodo.23453360
+> or concept DOI 10.5281/zenodo.21823583.**
+>
+> Files in this directory that have been corrected in v2 will therefore show
+> different checksums; that is expected.
+
 This package contains all data objects and analysis code required to reproduce the
 results of the manuscript. The study is a re-analysis of four public GEO datasets
 (GSE26549, GSE227919, GSE196296, GSE85195); no new measurements were generated.
