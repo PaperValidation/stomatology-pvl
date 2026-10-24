@@ -196,7 +196,7 @@ All authors read and approved the final manuscript.
 
 **Ethics statement.** This study is a secondary analysis of de-identified public datasets with no individual-level identifiers and no new subject recruitment; institutional review board approval was not required.
 
-**Declaration of generative AI and AI-assisted technologies in the manuscript preparation process.** During the preparation of this work the authors used an AI-powered academic writing tool to assist with drafting, language editing, and formatting. After using this tool, the authors reviewed and edited the content as needed and take full responsibility for the content of the publication.
+**Declaration of generative AI and AI-assisted technologies in the manuscript preparation process.** During the preparation of this work the authors used ChatGPT and WorkBuddy to assist with drafting, language editing, and formatting. After using these tools, the authors reviewed and edited the content as needed and take full responsibility for the content of the published article.
 
 ---
 

@@ -190,7 +190,7 @@ This research received no specific grant from any funding agency.
 
 ## Declaration of generative AI and AI-assisted technologies in the manuscript preparation process
 
-This manuscript was prepared with the assistance of an AI-powered academic writing tool. All analyses, results, and interpretations were designed and verified by the author(s), who take full responsibility for the content.
+During the preparation of this work the authors used ChatGPT and WorkBuddy to assist with drafting, language editing, and formatting. After using these tools, the authors reviewed and edited the content as needed and take full responsibility for the content of the published article.
 
 ---
 

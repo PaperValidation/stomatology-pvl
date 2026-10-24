@@ -61,7 +61,7 @@
 |---|---|---|
 | Conflict of Interest Statement（正文前部） | Abstract 后 `## Conflict of Interest` | ✅ 已补 |
 | CRediT（逐人标注） | Declarations | ✅ 五作者已填（Ma Keke / Liu Ruiguang / Li Yunpeng / Liu Hanping / Wang Yuqian） |
-| Declaration of generative AI（**manuscript preparation process**） | Declarations | ✅ 标题已按期刊固定措辞 |
+| Declaration of generative AI（**manuscript preparation process**） | Declarations | ✅ 标题与模板措辞均按期刊固定要求，工具名已填（ChatGPT and WorkBuddy） |
 | Funding sources | Declarations | ✅ |
 | Data availability | Declarations | ✅ concept DOI 21823583 + v2 23453360 |
 | Ethics statement | Declarations | ✅ 公共数据二次分析，免伦理审批 |
