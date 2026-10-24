@@ -25,6 +25,10 @@ inspect.R
 
 # ---- internal compliance-check scripts (not for the public repo) ----
 manuscript/_verify_oo.py
+manuscript/_verify_manuscript_docx.py
+
+# ---- build artifacts (regenerable) ----
+manuscript/_preview/
 
 # ---- IDE / tooling dirs ----
 .idea/
